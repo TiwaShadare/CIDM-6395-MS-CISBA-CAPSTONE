@@ -2,11 +2,11 @@
 
 ## Overview and Introduction
 
-The following competency inventory provides an overview of the knowledge and practical skills I have developed throughout my Computer Information Systems coursework. Its purpose is to distinguish between **knowledge**, which is what I understand, and **skills**, which is how I apply that knowledge to complete specific tasks. Together, knowledge and demonstrated skills provide evidence of competency in areas such as data analytics, information visualization, database management, artificial intelligence, programming, software development, cloud computing, and cybersecurity.
+The following competency inventory provides an overview of the knowledge and practical skills I have developed throughout my master's in computer information systems and business analytics coursework.
 
-Rather than simply listing technologies or course topics, this inventory focuses on what I can actually do with what I have learned. The **Knowledge** column identifies the concepts, principles, methods, and technologies I understand, while the **Skills & Tools** column describes specific actions I have performed using that knowledge. The **Strongest** column highlights competencies I could confidently perform again with little or no assistance, whereas the **Weakest** column identifies areas in which I would still rely on examples, documentation, or additional practice.
+The **Knowledge** column identifies the concepts, principles, methods, and technologies I learnt, while the **Skills & Tools** column describes specific actions where I apply that knowledge to complete specific tasks. The **Strongest** column highlights competencies I could confidently perform again with little or no assistance, whereas the **Weakest** column identifies areas in which I would still rely on examples, documentation, or additional practice.
 
-Where applicable, GitHub projects provide supporting evidence of how selected knowledge and skills have been applied through coursework and hands-on projects. Overall, the inventory reflects both my current capabilities and the areas in which I have opportunities for continued technical development.
+Also attached are GitHub projects provide supporting evidence of how selected knowledge and skills have been applied through coursework and hands-on projects. Overall, the inventory reflects both my current capabilities and the areas in which I have opportunities for continued technical development.
 
 ---
 
