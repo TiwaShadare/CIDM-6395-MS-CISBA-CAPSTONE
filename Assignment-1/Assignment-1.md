@@ -4,7 +4,7 @@ They also helped me recognize an important distinction between being able to per
 
 ## Areas of Confidence and Proficiency
 
-My strongest competencies in data analytics are data preparation, exploratory analysis, visualization, and the communication of findings. I understand that reliable analysis begins with properly prepared data. Using **Python** and **Pandas**, I have experience inspecting datasets, identifying data-quality problems, cleaning and transforming CSV files, organizing variables, and preparing information for analysis. These skills enable me to convert relatively raw data into a structured and usable format.
+My strongest competencies in data analytics are data preparation, exploratory analysis, visualization, and the communication of findings. I understand that reliable analysis begins with properly prepared data. I have experience inspecting datasets, identifying data-quality problems, cleaning and transforming CSV files, organizing variables, and preparing information for analysis. These skills enable me to convert relatively raw data into a structured and usable format.
 
 I am also comfortable conducting exploratory data analysis to understand a dataset before applying more advanced methods. This process includes examining distributions, comparing groups, identifying patterns and relationships, and determining which variables require further investigation. Exploratory analysis is valuable because it allows conclusions to develop from evidence rather than from assumptions established before reviewing the data.
 
@@ -20,7 +20,7 @@ Although I have a strong foundation, several competencies require additional dev
 
 I would also benefit from additional experience developing complete classification and logistic-regression workflows. While I understand the general process, I am less confident completing every stage independently, including preparing variables, configuring the model, selecting evaluation measures, interpreting results, and refining model performance.
 
-Advanced visualization is another developmental area. I have conceptual knowledge of geospatial visualizations, interactive dashboards, and complex time-series displays, but implementing sophisticated versions would currently require documentation or additional guidance. Similarly, I have been exposed to visual analytics platforms such as **RapidMiner**, but I would need reference materials to construct complex workflows.
+Advanced visualization is another developmental area. I have conceptual knowledge of geospatial visualizations, interactive dashboards, and complex time-series displays, but implementing sophisticated versions would currently require documentation or additional guidance. Similarly, I have been exposed to visual analytics platforms such as RapidMiner, but I would need reference materials to construct complex workflows.
 
 These weaknesses reflect the difference between familiarity and proficiency. I possess enough foundational knowledge to understand these methods and continue learning them, but I would not yet describe advanced machine learning, geospatial analytics, or sophisticated interactive visualization as areas of independent expertise.
 
@@ -38,20 +38,18 @@ I also want to improve my ability to connect analytical findings directly to bus
 
 My portfolio can demonstrate these competencies through:
 
-- Data-cleaning exercises
-- Before-and-after datasets
-- Exploratory analysis notebooks
-- Python scripts
-- Matplotlib visualizations
-- Regression results
-- Interactive dashboards
-- Visualization critiques
+- Data-cleaning exercises represented in my homeworks,
+- Matplotlib visualizations,
+- Regression results,
+- DataCamp Certificates,
+- Interactive dashboards, and
+- Visualization critiques and reflections.
 
 These artifacts provide evidence of both conceptual understanding and practical application.
 
 GitHub offers an effective platform for organizing this work. Each project can include the original dataset, cleaned data, analytical code, resulting visualizations, and an explanation of the conclusions. This structure allows reviewers to examine the complete analytical process rather than viewing only the final results.
 
-My skills were developed through practical assignments, instructional materials, and technical resources such as **Python, Pandas, Matplotlib, statistical references, and software documentation**. Consulting documentation remains an important professional skill because analysts must frequently determine how to implement unfamiliar functions, models, or visualization techniques.
+My skills were developed through practical assignments, instructional materials, and technical resources. Consulting documentation remains an important professional skill because analysts must frequently determine how to implement unfamiliar functions, models, or visualization techniques.
 
 ## Capstone and Professional Application
 
