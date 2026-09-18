@@ -42,7 +42,7 @@ Additional evidence includes structured prompts, reusable AI workflows, research
 
 I am prepared to apply these competencies to the **Data Management** phase of my capstone project. I will begin by identifying the system’s business rules and data requirements and translating them into an ER/EER model. The identified entities will be converted into relational tables with appropriate primary and foreign keys and normalized through 3NF.
 
-I will implement the database using MySQL and develop queries to retrieve operational and analytical information, including service utilization, appointment patterns, revenue trends, customer activity, inventory levels, and security incidents. These results will support the **Business Analytics** phase of the project.
+I will implement the database using MySQL and develop queries to retrieve operational and analytical information, including service utilization, appointment patterns, revenue trends, customer activity, inventory levels, and security incidents. These results will support the **Data Management** phase of the project.
 
 The GitHub repository will include:
 
@@ -58,4 +58,5 @@ The GitHub repository will include:
 
 Together, these materials will demonstrate how Data Management establishes the foundation for the remaining capstone components. Business Analytics will generate insights from the data, Software Systems will deliver application functionality, and Cybersecurity and Networking will protect the system and its information.
 
-Overall, I am competent in foundational and intermediate relational data management and proficient in practical generative AI usage and prompt engineering. My strongest capabilities include requirements-based database design, ER/EER modeling, normalization, MySQL implementation, SQL data retrieval, and reusable workflow design. These competencies support my work as a **Business Analyst** by enabling me to connect business requirements with organizational data, technical systems, analytics, and responsible artificial intelligence.
+Overall, I am competent in foundational and intermediate relational data management and proficient in practical generative AI usage and prompt engineering. My strongest capabilities include requirements-based database design, ER/EER modeling, normalization, MySQL implementation, SQL data retrieval, and reusable workflow design. 
+
