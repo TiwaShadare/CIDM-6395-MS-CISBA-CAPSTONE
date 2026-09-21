@@ -1,6 +1,6 @@
 # CIDM 6395 Capstone Project Proposal
 
-##A Web-Based Salon Management and Business Analytics System
+## A Web-Based Salon Management and Business Analytics System
 
 ### Project Overview
 
