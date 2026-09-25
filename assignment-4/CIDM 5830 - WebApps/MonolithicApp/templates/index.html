@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="color-scheme" content="dark">
+   <title>Grade Checker | Student Portal</title>
+   <style>
+      :root {
+         color-scheme: dark;
+         --page-bg: #0b1020;
+         --panel-bg: #141b2f;
+         --border: #2c3958;
+         --text: #edf2ff;
+         --muted: #9aa8c7;
+         --accent: #72e0c1;
+         --accent-strong: #43c7a5;
+         --shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+         min-width: 320px;
+         min-height: 100vh;
+         margin: 0;
+         background: var(--page-bg);
+         background-image: radial-gradient(circle at 15% 0%, rgba(63, 92, 157, 0.28), transparent 34rem),
+            linear-gradient(145deg, #0b1020 0%, #10182c 55%, #0d1722 100%);
+         color: var(--text);
+         font-family: Georgia, 'Times New Roman', serif;
+      }
+
+      body::before {
+         position: fixed;
+         inset: 0;
+         z-index: -1;
+         background-image: linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+         background-size: 42px 42px;
+         content: '';
+         mask-image: linear-gradient(to bottom, black, transparent 75%);
+      }
+
+      .page-shell { width: min(920px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0 36px; }
+      .hero { max-width: 650px; margin-bottom: 38px; }
+      .brand-mark {
+         display: grid; width: 46px; height: 46px; margin-bottom: 28px; place-items: center;
+         border: 1px solid rgba(114, 224, 193, 0.5); border-radius: 12px;
+         background: rgba(114, 224, 193, 0.1); color: var(--accent);
+         font: 700 13px Arial, sans-serif; letter-spacing: 1px;
+      }
+      .eyebrow {
+         margin: 0 0 10px; color: var(--accent); font: 700 11px Arial, sans-serif;
+         letter-spacing: 2px; text-transform: uppercase;
+      }
+      h1, p { margin-top: 0; }
+      h1 { margin-bottom: 14px; font-size: clamp(42px, 7vw, 70px); font-weight: 400; line-height: 0.98; }
+      .intro { max-width: 490px; margin-bottom: 0; color: var(--muted); font-size: 18px; line-height: 1.6; }
+      .checker-panel {
+         padding: 26px; border: 1px solid var(--border); border-radius: 10px;
+         background: rgba(20, 27, 47, 0.88); box-shadow: var(--shadow);
+      }
+      .lookup-form { display: flex; align-items: end; gap: 16px; }
+      .field-group { flex: 1; }
+      label { display: block; margin-bottom: 9px; color: var(--text); font: 700 13px Arial, sans-serif; }
+      input {
+         width: 100%; min-height: 50px; padding: 0 15px; border: 1px solid var(--border);
+         border-radius: 6px; outline: none; background: #0d1426; color: var(--text); font: 16px Arial, sans-serif;
+      }
+      input::placeholder { color: #647290; }
+      input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(114, 224, 193, 0.14); }
+      button {
+         display: inline-flex; min-height: 50px; align-items: center; gap: 18px; padding: 0 18px;
+         border: 0; border-radius: 6px; background: var(--accent); color: #08201a; cursor: pointer;
+         font: 700 13px Arial, sans-serif; transition: background 160ms ease, transform 160ms ease;
+      }
+      button:hover { background: var(--accent-strong); transform: translateY(-1px); }
+      button:focus-visible { outline: 3px solid rgba(114, 224, 193, 0.35); outline-offset: 3px; }
+      .button-arrow { font-size: 20px; line-height: 1; }
+      .helper-text { margin: 13px 0 0; color: var(--muted); font: 12px Arial, sans-serif; }
+      .page-footer { margin-top: 56px; color: #657392; font: 11px Arial, sans-serif; letter-spacing: 1px; text-align: center; text-transform: uppercase; }
+      @media (max-width: 600px) {
+         .page-shell { width: min(100% - 28px, 920px); padding-top: 42px; }
+         .checker-panel { padding: 20px; }
+         .lookup-form { display: block; }
+         button { width: 100%; justify-content: space-between; margin-top: 15px; }
+      }
+   </style>
+</head>
+<body>
+   <main class="page-shell">
+      <section class="hero" aria-labelledby="page-title">
+         <div class="brand-mark" aria-hidden="true">GC</div>
+         <p class="eyebrow">Student portal</p>
+         <h1 id="page-title">Grade Checker</h1>
+         <p class="intro">Enter a student ID to view the latest grade records.</p>
+      </section>
+
+      <section class="checker-panel" aria-label="Grade lookup">
+         <form class="lookup-form" action="/get_grades" method="get">
+            <div class="field-group">
+               <label for="student_id">Student ID</label>
+               <input type="text" id="student_id" name="student_id" inputmode="numeric" autocomplete="off" placeholder="e.g. 12345" required>
+            </div>
+            <button type="submit"><span>Check grades</span><span class="button-arrow" aria-hidden="true">&#8594;</span></button>
+         </form>
+         <p class="helper-text">Use the numeric ID assigned by your school.</p>
+      </section>
+
+      <footer class="page-footer">Secure student grade lookup</footer>
+   </main>
+</body>
+</html>
