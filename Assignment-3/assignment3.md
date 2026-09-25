@@ -1,4 +1,4 @@
-# Software Systems Competency and Preparedness Appraisal
+# Assignment 3 - Assessing Software Systems
 
 ## Introduction
 My coursework in technical foundations, software engineering, and systems development provided me with practical knowledge of how software applications are designed, developed, tested, documented, and maintained. Through these courses, I gained experience with Python programming, HTML and CSS, object-oriented programming, UML modeling, software architecture, testing, debugging, logging, and version control with Git and GitHub.
