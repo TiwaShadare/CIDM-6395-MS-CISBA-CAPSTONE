@@ -39,29 +39,20 @@ Production caching and search technologies are additional areas of weakness. I u
 
 Within cybersecurity, I am less confident in advanced network intrusion analysis. I have experience examining network traffic and identifying common protocols and background activity, but I would require assistance to investigate a sophisticated intrusion, correlate events across multiple sources, or distinguish malicious activity from complex normal traffic.
 
-I also understand cryptography at a conceptual level but am not prepared to design or implement cryptographic solutions independently. Cryptographic controls can create serious vulnerabilities when implemented incorrectly. I would rely on established libraries, standards, and expert guidance rather than attempting to create custom cryptographic mechanisms.
-
 These limitations show that my present strengths are in foundational cloud deployment, risk analysis, and prototype-level security rather than enterprise-scale administration or advanced security engineering.
 
 ## Knowledge and Skills I Wish to Develop
-
-The most important capability I wish to develop is securing a complete cloud application throughout its lifecycle. I want to become more proficient in integrating identity management, network isolation, encrypted communication, container security, secrets management, logging, monitoring, vulnerability scanning, backups, and incident response into one system.
+The most important capability I wish to develop is securing a complete cloud application throughout its lifecycle. I want to become more proficient in integrating identity management, network isolation, encrypted communication, secrets management, logging, monitoring, vulnerability scanning, backups, and incident response into one system.
 
 I also want to strengthen my understanding of cloud identity and access management. This includes designing roles, service accounts, permission boundaries, multifactor authentication, privileged-access procedures, and periodic access reviews. Misconfigured access is a significant cloud risk, so this knowledge would improve my ability to develop secure prototypes and evaluate existing systems.
 
-Another area I may be missing is cloud cost and resource governance. A system can be technically functional and secure but still become unsustainable if resources are poorly managed. I would benefit from learning how to establish budgets, alerts, tagging standards, resource inventories, and procedures for identifying unused services.
-
-I would also like more experience with security automation. Automated configuration checks, vulnerability scans, dependency reviews, log analysis, and deployment controls can identify problems earlier and reduce reliance on manual inspection. Developing these skills would help me incorporate security into the development process instead of treating it as a final review.
+I would also like more experience with security automation. Automated configuration checks, vulnerability scans, dependency reviews, and deployment controls can identify problems earlier and reduce reliance on manual inspection. Developing these skills would help me incorporate security into the development process instead of treating it as a final review.
 
 Finally, I need a deeper understanding of incident response in cloud environments. This includes preserving evidence, reviewing logs, isolating affected resources, restoring services, communicating with stakeholders, and completing post-incident analysis. These capabilities would connect my knowledge of risk management and contingency planning with practical operational response.
 
 ## Evidence and Sources of Knowledge
-My portfolio can include several samples demonstrating my cybersecurity and cloud-networking competencies:
+My portfolio includes several samples demonstrating my cybersecurity and cloud-networking competencies:
 
-- Linux command-line exercises and administrative procedures.
-- Documentation of a basic cloud-instance deployment.
-- Network and firewall configuration examples.
-- Dockerfiles and Docker Compose configuration files.
 - GitHub repositories containing cloud project code.
 - A Wireshark traffic analysis identifying protocols and network activity.
 - Phishing-awareness assessments and written security reflections.
@@ -69,15 +60,12 @@ My portfolio can include several samples demonstrating my cybersecurity and clou
 - A qualitative risk register based on assets, threats, and vulnerabilities.
 - A security audit with documented observations and recommendations.
 - Vulnerability-management or contingency-planning assignments.
-- Screenshots, configuration records, and troubleshooting notes from cloud exercises.
 
 For example, my cybersecurity work included analyzing network traffic with Wireshark, evaluating phishing scenarios, examining password security, studying device-tracking risks, and preparing an asset inventory and risk assessment. I also completed a security audit that considered passwords, software updates, backups, Wi-Fi, firewalls, payment systems, privacy, incident response, data disposal, and regulatory responsibilities. These assignments strengthened my ability to translate technical observations into business-focused recommendations.
-
-The sources that supported my learning included course lectures, assigned readings, instructor demonstrations, cloud-provider documentation, Linux command references, Docker documentation, GitHub documentation, cybersecurity frameworks, software tutorials, and examples of risk registers and audit procedures. These materials helped me understand unfamiliar technologies, complete technical exercises, troubleshoot errors, and support my recommendations.
 
 ## Portfolio and Capstone Preparedness
 I am prepared to apply these competencies to the Cybersecurity and Cloud Networking component of my capstone. After developing the data, analytics, and software portions of the project, I can deploy the prototype in a basic cloud environment and document the controls used to protect it.
 
-The security component can include an asset inventory, data classification, threat and vulnerability assessment, qualitative risk register, access-control model, firewall requirements, secure communication through HTTPS, logging procedures, backup considerations, and incident-response recommendations. If the application is containerized, I can also document the Docker configuration and explain how containerization supports consistent deployment.
+The security component can include an asset inventory, data classification, threat and vulnerability assessment, qualitative risk register, access-control model, firewall requirements, secure communication through HTTPS, logging procedures, backup considerations, and incident-response recommendations. 
 
-My GitHub repository can contain the deployment documentation, Docker configuration, security requirements, network diagram, risk assessment, audit checklist, testing evidence, and recommendations for production implementation. I can clearly distinguish between controls implemented in the prototype and controls that would be required for an enterprise-scale system.
+My GitHub repository can contain the deployment documentation, security requirements, risk assessment, audit checklist, testing evidence, and recommendations for production implementation. 
